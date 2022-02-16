@@ -20,11 +20,29 @@ section{
     padding: 8px 30px;
     border: 2px solid black;
     margin: 1rem;
+    letter-spacing:1px;
     transition: all 0.1s ease-in-out;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 17px 225px 15px/13px 225px 
 }
 
 .button:hover{
     /* width: 100%; */
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    background-color: #A0A038;
+    border: #61610d solid 1px;
+}
+td{
+    text-align: center;
+    background-color: #D0D068;
+    border: #61610d solid 1px;    
 }
