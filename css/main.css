@@ -11,7 +11,7 @@ h1 h2{
     font-size:3rem;
 }
 
-section{
+section.navButtons{
     display: flex;
     justify-content: center;
 }
@@ -33,10 +33,16 @@ section{
     transition: all 0.1s ease-in-out;
 }
 
+.tablesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 table {
     border-collapse: collapse;
     margin: 0px 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
 }
 th{
     background-color: #A0A038;
@@ -44,13 +50,11 @@ th{
 }
 td{
     text-align: center;
-    background-color: #D0D068;
     border: #61610d solid 1px;
 }
 
-td:hover{
-    border: #000000 solid 1px;
-    background-color: #E0F0E8;
+tr{
+    background-color: #D0D068;    
 }
 
 tr:hover{

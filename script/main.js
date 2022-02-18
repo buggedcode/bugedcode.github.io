@@ -54,7 +54,7 @@ function OnExample3Click(){
 }
 
 function OnExample4Click(){
-    console.log("Example 4 click");
+    window.location = "./PersonalBio.html";
 }
 
 function OnExample5Click(){
