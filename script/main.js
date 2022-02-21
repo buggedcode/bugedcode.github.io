@@ -58,5 +58,5 @@ function OnExample4Click(){
 }
 
 function OnExample5Click(){
-    console.log("Example 5 click");
+    window.location = "pages/about.html";
 }
